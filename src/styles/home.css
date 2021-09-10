@@ -1,0 +1,45 @@
+body{
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    gap: 2rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    
+}
+.content h1{
+    font-size: 5rem;
+}
+.content h3{
+    font-size: 1.4rem;
+  
+}
+
+.btn-submit{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:1rem;
+    border: 1px solid white;
+    color: #fff;
+    background: transparent;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.btn-submit:hover{
+    background-color: #fff; 
+    color: #222;
+}
